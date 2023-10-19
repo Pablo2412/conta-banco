@@ -1,4 +1,4 @@
-}import java.util.Scanner;
+import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class ContaTerminal {
         double saldo = Double.parseDouble(scanner.nextLine());
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.");
-    }
+    } 
 }
 
